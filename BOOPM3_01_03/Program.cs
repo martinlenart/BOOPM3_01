@@ -45,8 +45,16 @@ namespace BOOPM3_01_03
             Console.WriteLine($"{nameof(imrp1)}={(imrp1.X, imrp1.Y)}");
         }
     }
-    //Exercises:
-    //1.    Modify write a constructor to immutableReferenceTypePoint so the code
-    //      imrp2 = new immutableReferenceTypePoint();
-    //      creates a point that is initiated to X=0 and Y=0
 }
+//Exercises:
+//1.    Write a constructor to immutableReferenceTypePoint so the code
+//      imrp2 = new immutableReferenceTypePoint();
+//      creates a point that is initiated to X=0 and Y=0
+//2.    Write a public function member (a method), Add(..), in the class immutableReferenceTypePoint
+//      that takes a parameter of type immutableReferenceTypePoint, that returns a
+//      value of type immutableReferenceTypePoint whose
+//          X = X (of the instance) + X (of the parameter) and
+//          Y = Y (of the instance) + Y (of the parameter)
+//3.	Is the Apple type in BOOPM3_02  mutable or immutable? 
+//		Create a new Apple type with oposite mutability. 
+//		Demonstrate mutability and immutability by assignment and printout.

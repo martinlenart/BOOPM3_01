@@ -26,6 +26,6 @@ namespace BOOPM3_01_09
 
     //Excercises:
     //1.    Implement two methods overloading with conflicting signature
-    //2.    Implement two methods with non-conflicting signatures, but each has a local method, with exactly the same signature.
-    //      Will this work?
+    //2.    Implement two methods with non-conflicting signatures, but each has a local method,
+    //      with exactly the same signature. Will this work?
 }

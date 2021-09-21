@@ -19,3 +19,7 @@ namespace BOOPM3_01_04
         }
     }
 }
+//Exercises:
+//1.    In a program you need to make a configuration class that keeps track of the
+//      url to a database where you read customer data. Do you best implement it as
+//      a constant or static readonly in your configuration class?

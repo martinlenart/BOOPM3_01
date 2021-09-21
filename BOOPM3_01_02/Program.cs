@@ -26,9 +26,12 @@ namespace BOOPM3_01_02
 			Console.WriteLine(Apple.NrInstances);   // 2        
 		}
 	}
-	//Exercises:
-	//1.	Add 2 public static variables, float Heaviest, float Lightes.  	
-	//		Modify the code so it also keept track of the heaviest and lightest Apple object instanciated. 
-	//		Write the weight of the heaviest and lightest Apple object instantiated.
-
 }
+//Exercises:
+//1.	Add 2 public static data members, float Heaviest, float Lightest.  	
+//		Modify the code so it also keept track of the heaviest and lightest Apple object instanciated. 
+//		Write the weight of the heaviest and lightest Apple object instantiated.
+//		
+//		Hint: Add weight as a non static data member and as a parameter to the constructor.
+//		Add code in the constructor that keeps track of heviest and lightest apple.		
+

@@ -38,7 +38,7 @@ namespace BOOPM3_01_08
         }
     }
     //Excercises:
-    //1.    Modify above code to avoid code duplication when calculating the diagonal. I.e, the calculation should only be done 
-    //      in one place.
+    //1.    Modify above code to apply DRY when calculating the diagonal.
+    //      I.e, the calculation should only be done in one place.
 
 }

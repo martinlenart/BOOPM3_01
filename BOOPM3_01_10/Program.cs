@@ -50,9 +50,9 @@ namespace BOOPM3_01_10
 
     //Excercises:
     //1.    Explain the difference in the last compare ws1.Equals(ws2) vs last compare wc1.Equals(wc2)
-    //2.    Try to use Object initialization creating an object instance of WineClass
-    //      You will need to create a parameterless constructor for WineClass. Can you create one for WineStruct?
+    //2.    Create a parameterless constructor for WineClass to set values of your choise.
+    //      Can you create one for WineStruct?
     //3.    Add a property string Name to both WineClass and WineStruct. Modify the parameterless constructor in
     //      WineClass to set Name, Price and Year to your favorite wine.
-    //      How would you create an instance of your favorite wine in WineStruct?
+    //4.    Create an instance of your favorite wine in a variable of type WineStruct and WineClass
 }

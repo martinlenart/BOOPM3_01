@@ -38,5 +38,8 @@ namespace BOOPM3_01_01
 			Console.WriteLine(rp3.Equals(rp2)); // False
 		}
 	}
-	//Excercises:
 }
+//Excercises:
+//1.	Declare a variable of type referenceTypePoint, rp4. Make rp4 a deep
+//		copy of rp1. Explain the difference between shallow and deep copy for 
+//		value types and reference types.

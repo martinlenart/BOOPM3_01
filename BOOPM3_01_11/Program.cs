@@ -25,9 +25,8 @@ namespace BOOPM3_01_11
             Console.WriteLine($"{p1.Name}'s {nameof(p1.Mate)} is {p1.Mate.Name}"); // Bill's Mate is Anne
         }
     }
-
-    //Excercises:
-    //1.    Modify class Panda to allow the property Name to be set also through object initialization.
-    //      Explain why you need to create a parameterless constructor
-    //      Create an instance of Panda using only object initialization
 }
+//Excercises:
+//1.    Modify class Panda to allow the property Name to be set also through object initialization.
+//      Hint. Class constructor.
+//2.    Create an instance of Panda using only object initialization

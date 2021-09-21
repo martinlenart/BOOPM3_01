@@ -36,10 +36,10 @@ namespace BOOPM3_01_06
 			Console.WriteLine(stock2.SharesOwned);   // 200
 		}
 	}
-	//Excercises:
-	//1.	Can SharesOwned be initialized through object initialization? 
-	//2.	Make public (should it be static?) readonly members to return nr of Stocks objects created.
-	//		Create a few Stocks using object initialization, and write out number of Stock instances created
-	//3.	Modify code to write the Worth of the Stock instance with the highest worth created. 
-
 }
+//Excercises:
+//1.	Can SharesOwned be initialized through object initialization? 
+//2.	Make public (should it be static?) readonly members to return nr of Stocks objects created.
+//		Create a few Stocks using object initialization, and write out number of Stock instances created
+//3.	Modify code to write the Worth of the instance of Stock with the highest worth created. 
+
