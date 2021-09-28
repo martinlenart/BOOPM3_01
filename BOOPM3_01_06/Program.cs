@@ -4,15 +4,15 @@ namespace BOOPM3_01_06
 {
 	class Program
 	{
-		public class Stock
+		private class Stock
 		{
-			decimal currentPrice = 1;       // private "backing" field
+			decimal _currentPrice = 1;       // private "backing" field
 			public decimal CurrentPrice     // public property
 			{
-				get => currentPrice;
+				get => _currentPrice;
 				set
 				{
-					if (value > 0) currentPrice = value;
+					if (value > 0) _currentPrice = value;
 					else throw new Exception("Wrong Price");
 				}
 			}
@@ -21,8 +21,8 @@ namespace BOOPM3_01_06
 
 			public decimal Worth
 			{
-				get => currentPrice * SharesOwned;
-				init => SharesOwned = value / currentPrice;  // Can only be set at initialization time
+				get => _currentPrice * SharesOwned;
+				init => SharesOwned = value / _currentPrice;  // Can only be set at initialization time
 			}
 		}
 		static void Main(string[] args)
@@ -34,6 +34,8 @@ namespace BOOPM3_01_06
 			var stock2 = new Stock { CurrentPrice = 50, Worth = 10000 }; //object initialization of public properties
 			Console.WriteLine(stock2.Worth);         // 10000
 			Console.WriteLine(stock2.SharesOwned);   // 200
+
+			stock2.CurrentPrice = 3.0M;
 		}
 	}
 }

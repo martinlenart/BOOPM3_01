@@ -20,10 +20,15 @@ namespace BOOPM3_01_10
             public decimal Price { get; set; } = default;
             public int Year { get; set; } = default;
 
-            public WineClass(decimal price) => Price = price;
+            public WineClass(decimal price)
+            {
+                Price = price;
+            }
 
-            //Note I deviate from C# naming convention show the "this" keyword
-            public WineClass(decimal price, int Year) : this(price) => this.Year = Year;
+            public WineClass(decimal price, int year) : this(price)
+            { 
+                Year = year; 
+            }
         }
         static void Main(string[] args)
         {
